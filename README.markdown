@@ -13,6 +13,7 @@ No nonsense with the `config.ru` file and everything else works as expected. Thi
 You'll have to add in your own fibrous code for anything else that might block e.g. external API requests.
 
 ##Other Notes
+* Start the server with `rails s thin`
 * This requires ruby v1.9.2
 * Logging might not work
 
